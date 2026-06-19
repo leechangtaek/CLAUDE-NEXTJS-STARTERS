@@ -1,12 +1,12 @@
 ---
-description: '이모지와 컨벤셔널 커밋 메시지로 잘 포맷된 커밋을 생성합니다'
+description: "이모지와 컨벤셔널 커밋 메시지로 잘 포맷된 커밋을 생성합니다"
 allowed-tools:
   [
-    'Bash(git add:*)',
-    'Bash(git status:*)',
-    'Bash(git commit:*)',
-    'Bash(git diff:*)',
-    'Bash(git log:*)',
+    "Bash(git add:*)",
+    "Bash(git status:*)",
+    "Bash(git commit:*)",
+    "Bash(git diff:*)",
+    "Bash(git log:*)",
   ]
 ---
 
@@ -61,4 +61,5 @@ allowed-tools:
 
 - 스테이지된 파일이 있으면 해당 파일만 커밋
 - 분할 제안을 위한 diff 분석
+- 내용은 한글로 작성할 것
 - **커밋에 Claude 서명 절대 추가하지 않음**
